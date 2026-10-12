@@ -1,6 +1,6 @@
 # Hi, I'm Shahzeb Ali 👋
 
-**Associate Data Engineer** @ Alphabridge Consulting · Lahore, Pakistan 🇵🇰
+**Data Engineer** from · Lahore, Pakistan 🇵🇰
 
 I design and build reliable data pipelines — from ingestion to analytics-ready datasets. My day-to-day work is ETL/ELT in Python and SQL, large-scale processing on Apache Spark and Databricks, and dimensional modeling, with a focus on getting incremental ingestion right: CDC, Delta Lake MERGE, and clean dbt transformations.
 
@@ -25,27 +25,6 @@ I design and build reliable data pipelines — from ingestion to analytics-ready
 **Data Manipulation**
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-
----
-
-### 🎯 Focus Areas
-
-- **Medallion Architecture** — Bronze → Silver → Gold pipelines on Databricks
-- **CDC & incremental ingestion** — Autoloader, Auto CDC, keeping datasets current without reprocessing everything
-- **Delta Lake MERGE** — upsert patterns and schema evolution
-- **dbt** — modeling, testing, and documentation for pipeline observability
-
----
-
-### 📁 Featured Projects
-
-**GoodCabs Regional Analytics Pipeline** · *Databricks, Apache Spark, Python, SQL, AWS S3, Delta Lake*
-- Built an end-to-end pipeline using Databricks LakeFlow SDP with Medallion Architecture, processing 356K+ trip records from S3 using Autoloader and Auto CDC for incremental ingestion.
-- Produced city-specific materialized views in the Gold layer and enforced role-based access control via Unity Catalog for secure regional analytics.
-
-**FMCG Enterprise Data Consolidation Platform** · *Databricks, Apache Spark, Python, SQL, AWS S3, Delta Lake*
-- Built an end-to-end data engineering pipeline on Medallion Architecture for historical and incremental FMCG datasets from AWS S3.
-- Developed ETL workflows for data cleansing, schema standardization, duplicate removal, and master data integration; implemented Delta Lake MERGE (upsert) and dimensional modeling for analytics-ready Gold-layer datasets.
 
 ---
 
@@ -84,7 +63,7 @@ I contribute regularly to data-engineering projects — docs, tests, and bug fix
 
 ### 💼 Experience & Education
 
-- **Associate Data Engineer** — Alphabridge Consulting Ltd, Lahore (Aug 2026 – Sep 2026)
+- **Data Engineer** — Alphabridge Consulting Ltd, Lahore (Aug 2026)
 - **Teaching Assistant, DBMS & Data Warehousing / BI** — PUCIT, Lahore (Jan 2025 – Jan 2026)
 - **BS Data Science** — University of the Punjab, PUCIT (2022 – 2026)
 
