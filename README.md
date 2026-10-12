@@ -63,10 +63,10 @@ I contribute regularly to data-engineering projects — docs, tests, and small f
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Shahzeb-Ali-Web-Developer&show_icons=true&theme=tokyonight&hide_border=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shahzeb-Ali-Web-Developer&layout=compact&theme=tokyonight&hide_border=true" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Shahzeb-DataEngineer&show_icons=true&theme=tokyonight&hide_border=true" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shahzeb-DataEngineer&layout=compact&theme=tokyonight&hide_border=true" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Shahzeb-Ali-Web-Developer&theme=tokyonight&hide_border=true" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Shahzeb-DataEngineer&theme=tokyonight&hide_border=true" />
 
 </div>
 
@@ -83,4 +83,4 @@ I contribute regularly to data-engineering projects — docs, tests, and small f
 ### 📫 Get in Touch
 
 <a href="mailto:shahzebali1218@gmail.com"><img src="https://img.shields.io/badge/Email-shahzebali1218@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
-<a href="https://github.com/Shahzeb-Ali-Web-Developer"><img src="https://img.shields.io/badge/GitHub-Shahzeb--Ali--Web--Developer-181717?style=flat-square&logo=github&logoColor=white" /></a>
+<a href="https://github.com/Shahzeb-DataEngineer"><img src="https://img.shields.io/badge/GitHub-Shahzeb--DataEngineer-181717?style=flat-square&logo=github&logoColor=white" /></a>
