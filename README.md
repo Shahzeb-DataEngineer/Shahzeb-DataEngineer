@@ -51,11 +51,21 @@ I design and build reliable data pipelines — from ingestion to analytics-ready
 
 ### 🌱 Open Source
 
-I contribute regularly to data-engineering projects — docs, tests, and small fixes:
+I contribute regularly to data-engineering projects — docs, tests, and bug fixes:
 
+**Merged:**
+- [delta-io/delta-rs#4833](https://github.com/delta-io/delta-rs/pull/4833) — fixed schema merging to mark new columns nullable on write (Rust)
 - [delta-io/delta-rs#4832](https://github.com/delta-io/delta-rs/pull/4832) — documented how to configure `deletedFileRetentionDuration`
-- [apache/airflow#74424](https://github.com/apache/airflow/pull/74424) — added missing tests for `cncf.kubernetes` script and delete utilities
-- [kedro-org/kedro#5808](https://github.com/kedro-org/kedro/pull/5808) — rewrote the templating concept page as a concept-only doc
+- [kedro-org/kedro#5809](https://github.com/kedro-org/kedro/pull/5809) — added `CachedDataset` example to Data Catalog docs
+
+**Open:**
+- [apache/iceberg#18468](https://github.com/apache/iceberg/pull/18468) — clarified Spark branch write precedence docs
+- [sqlfluff/sqlfluff#8715](https://github.com/sqlfluff/sqlfluff/pull/8715) — removed outdated Snowflake note from Rule ST07
+- [apache/datafusion#26198](https://github.com/apache/datafusion/pull/26198) — validate pruning-ratio config at SET time
+- [dbt-labs/dbt#16690](https://github.com/dbt-labs/dbt/pull/16690) — log effective thread count at startup
+- [airbytehq/airbyte#88468](https://github.com/airbytehq/airbyte/pull/88468) — fixed dead sample-connector links in CDK docs
+- [apache/airflow#74424](https://github.com/apache/airflow/pull/74424) — added missing tests for `cncf.kubernetes` utilities
+- [kedro-org/kedro#5808](https://github.com/kedro-org/kedro/pull/5808) — rewrote templating concept page (approved, awaiting merge)
 
 ---
 
