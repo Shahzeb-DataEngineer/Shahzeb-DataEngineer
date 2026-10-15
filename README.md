@@ -37,6 +37,7 @@ I contribute to bug fixes, documentation, tests, and performance improvements ac
 | dbt Labs | dbt | 1 open | [#16690](https://github.com/dbt-labs/dbt/pull/16690) | Log effective thread count at startup |
 | OpenMetadata | docs-om | 1 open | [#599](https://github.com/open-metadata/docs-om/pull/599) | OpenSearch FGAC permissions guide |
 | Canonical | craft-cli | 1 open | [#504](https://github.com/canonical/craft-cli/pull/504) | TypeError for non-string items in humanize_list |
+| Canonical | craft-providers | 1 open | [#1026](https://github.com/canonical/craft-providers/pull/1026) | Typed error for unsupported Ubuntu version in base checks |
 
 ### 🛠️ Technologies Used
 
@@ -49,8 +50,8 @@ I contribute to bug fixes, documentation, tests, and performance improvements ac
 
 ### 📊 GitHub Activity
 
-- 6 merged PRs across Delta Lake, Kedro, SQLFluff, Airbyte, and ClickHouse
-- 7 open PRs across Apache, dbt Labs, OpenMetadata, and Canonical
+- 7 merged PRs across Delta Lake, Kedro, SQLFluff, Airbyte, and ClickHouse
+- 8 open PRs across Apache, dbt Labs, OpenMetadata, and Canonical
 - Contributing to docs, tests, bug fixes, and performance improvements
 
 ### 💼 Experience & Education
