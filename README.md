@@ -26,8 +26,8 @@ I contribute to bug fixes, documentation, tests, and performance improvements ac
 
 | Organization | Project | Status | Pull Requests | Contributions |
 |---|---|---|---|---|
-| Delta Lake | delta-rs | 3 merged | [#4832](https://github.com/delta-io/delta-rs/pull/4832), [#4833](https://github.com/delta-io/delta-rs/pull/4833), [#4866](https://github.com/delta-io/delta-rs/pull/4866) | Schema merging nullable fix (Rust), deletedFileRetentionDuration docs, TIMESTAMP UTC offset fix |
-| Kedro | kedro | 1 merged, 1 open | [#5809](https://github.com/kedro-org/kedro/pull/5809), [#5808](https://github.com/kedro-org/kedro/pull/5808) | CachedDataset docs example, templating concept page rewrite |
+| Delta Lake | delta-rs | 3 merged, 1 open | [#4832](https://github.com/delta-io/delta-rs/pull/4832), [#4833](https://github.com/delta-io/delta-rs/pull/4833), [#4866](https://github.com/delta-io/delta-rs/pull/4866), [#4890](https://github.com/delta-io/delta-rs/pull/4890) | Schema merging nullable fix (Rust), deletedFileRetentionDuration docs, TIMESTAMP UTC offset fix, multiple conditional clauses merge examples |
+| Kedro | kedro | 2 merged | [#5809](https://github.com/kedro-org/kedro/pull/5809), [#5808](https://github.com/kedro-org/kedro/pull/5808) | CachedDataset docs example, templating concept page rewrite |
 | SQLFluff | sqlfluff | 1 merged | [#8715](https://github.com/sqlfluff/sqlfluff/pull/8715) | Removed outdated Snowflake USING note from Rule ST07 |
 | Airbyte | airbyte | 1 merged | [#88468](https://github.com/airbytehq/airbyte/pull/88468) | Fixed dead low-code CDK sample connector links |
 | ClickHouse | ClickHouse | 1 merged | [#125739](https://github.com/ClickHouse/ClickHouse/pull/125739) | Version note for Replicated engine default_replica_path settings |
@@ -50,8 +50,8 @@ I contribute to bug fixes, documentation, tests, and performance improvements ac
 
 ### 📊 GitHub Activity
 
-- 7 merged PRs across Delta Lake, Kedro, SQLFluff, Airbyte, and ClickHouse
-- 8 open PRs across Apache, dbt Labs, OpenMetadata, and Canonical
+- 8 merged PRs across Delta Lake, Kedro, SQLFluff, Airbyte, and ClickHouse
+- 8 open PRs across Delta Lake, Apache, dbt Labs, OpenMetadata, and Canonical
 - Contributing to docs, tests, bug fixes, and performance improvements
 
 ### 💼 Experience & Education
