@@ -38,10 +38,10 @@ I contribute to bug fixes, documentation, tests, and performance improvements ac
 | OpenMetadata | docs-om | 1 merged, 1 open | [#615](https://github.com/open-metadata/docs-om/pull/615), [#599](https://github.com/open-metadata/docs-om/pull/599) | Full Stack dev container setup fix, OpenSearch FGAC permissions guide |
 | Canonical | craft-cli | 2 open | [#504](https://github.com/canonical/craft-cli/pull/504), [#510](https://github.com/canonical/craft-cli/pull/510) | TypeError for non-string items in humanize_list, strip Sphinx markup from plain help overview |
 | Canonical | craft-providers | 1 open | [#1026](https://github.com/canonical/craft-providers/pull/1026) | Typed error for unsupported Ubuntu version in base checks |
-| Canonical | starbase | 1 open | [#638](https://github.com/canonical/starbase/pull/638) | Reuse index.rst first sentence for llms.txt description (approved) |
+| Canonical | starbase | 1 merged | [#638](https://github.com/canonical/starbase/pull/638) | Reuse index.rst first sentence for llms.txt description |
 | Canonical | rockcraft | 1 open | [#1401](https://github.com/canonical/rockcraft/pull/1401) | Prefix base digest with sha256 in OCI annotation and rock metadata |
 | lakeFS | lakeFS | 1 open | [#10555](https://github.com/treeverse/lakeFS/pull/10555) | Squash merge option in branch merge dialog |
-| Bytewax | bytewax | 1 open | [#637](https://github.com/bytewax/bytewax/pull/637) | Expose package version as bytewax.__version__ |
+| Bytewax | bytewax | 1 open | [#637](https://github.com/bytewax/bytewax/pull/637) | Expose bytewax.__version__, __git_revision__, __git_dirty__ build info |
 
 ### 🛠️ Technologies Used
 
@@ -54,8 +54,8 @@ I contribute to bug fixes, documentation, tests, and performance improvements ac
 
 ### 📊 GitHub Activity
 
-- 10 merged PRs across Delta Lake, Kedro, SQLFluff, Airbyte, ClickHouse, and OpenMetadata
-- 14 open PRs across Apache, dbt Labs, OpenMetadata, Canonical, lakeFS, and Bytewax
+- 11 merged PRs across Delta Lake, Kedro, SQLFluff, Airbyte, ClickHouse, Canonical, and OpenMetadata
+- 13 open PRs across Apache, dbt Labs, OpenMetadata, Canonical, lakeFS, and Bytewax
 - Contributing to docs, tests, bug fixes, and performance improvements
 
 ### 💼 Experience & Education
