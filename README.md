@@ -39,8 +39,10 @@ I contribute to bug fixes, documentation, tests, and performance improvements ac
 | Canonical | craft-cli | 2 open | [#504](https://github.com/canonical/craft-cli/pull/504), [#510](https://github.com/canonical/craft-cli/pull/510) | TypeError for non-string items in humanize_list, strip Sphinx markup from plain help overview |
 | Canonical | craft-providers | 1 open | [#1026](https://github.com/canonical/craft-providers/pull/1026) | Typed error for unsupported Ubuntu version in base checks |
 | Canonical | starbase | 1 open | [#638](https://github.com/canonical/starbase/pull/638) | Reuse index.rst first sentence for llms.txt description (approved) |
+| Canonical | rockcraft | 1 open | [#1401](https://github.com/canonical/rockcraft/pull/1401) | Prefix base digest with sha256 in OCI annotation and rock metadata |
 | lakeFS | lakeFS | 1 open | [#10555](https://github.com/treeverse/lakeFS/pull/10555) | Squash merge option in branch merge dialog |
 | Bytewax | bytewax | 1 open | [#637](https://github.com/bytewax/bytewax/pull/637) | Expose package version as bytewax.__version__ |
+| datacontract | datacontract-cli | 1 open | [#1762](https://github.com/datacontract/datacontract-cli/pull/1762) | Fix false missing-field reports for columns whose names contain dots or brackets |
 
 ### 🛠️ Technologies Used
 
@@ -54,7 +56,7 @@ I contribute to bug fixes, documentation, tests, and performance improvements ac
 ### 📊 GitHub Activity
 
 - 10 merged PRs across Delta Lake, Kedro, SQLFluff, Airbyte, ClickHouse, and OpenMetadata
-- 13 open PRs across Apache, dbt Labs, OpenMetadata, Canonical, lakeFS, and Bytewax
+- 15 open PRs across Apache, dbt Labs, OpenMetadata, Canonical, lakeFS, Bytewax, and datacontract
 - Contributing to docs, tests, bug fixes, and performance improvements
 
 ### 💼 Experience & Education
