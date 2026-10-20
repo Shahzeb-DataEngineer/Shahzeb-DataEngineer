@@ -42,7 +42,6 @@ I contribute to bug fixes, documentation, tests, and performance improvements ac
 | Canonical | rockcraft | 1 open | [#1401](https://github.com/canonical/rockcraft/pull/1401) | Prefix base digest with sha256 in OCI annotation and rock metadata |
 | lakeFS | lakeFS | 1 open | [#10555](https://github.com/treeverse/lakeFS/pull/10555) | Squash merge option in branch merge dialog |
 | Bytewax | bytewax | 1 open | [#637](https://github.com/bytewax/bytewax/pull/637) | Expose package version as bytewax.__version__ |
-| datacontract | datacontract-cli | 1 open | [#1762](https://github.com/datacontract/datacontract-cli/pull/1762) | Fix false missing-field reports for columns whose names contain dots or brackets |
 
 ### 🛠️ Technologies Used
 
@@ -56,7 +55,7 @@ I contribute to bug fixes, documentation, tests, and performance improvements ac
 ### 📊 GitHub Activity
 
 - 10 merged PRs across Delta Lake, Kedro, SQLFluff, Airbyte, ClickHouse, and OpenMetadata
-- 15 open PRs across Apache, dbt Labs, OpenMetadata, Canonical, lakeFS, Bytewax, and datacontract
+- 14 open PRs across Apache, dbt Labs, OpenMetadata, Canonical, lakeFS, and Bytewax
 - Contributing to docs, tests, bug fixes, and performance improvements
 
 ### 💼 Experience & Education
