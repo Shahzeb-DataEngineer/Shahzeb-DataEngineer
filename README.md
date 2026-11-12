@@ -1,74 +1,59 @@
-# Hi, I'm Shahzeb Ali 👋
+# Hi, I'm Shahzeb Ali
 
-**Data Engineer | Data Pipelines & Lakehouse | Open-Source Contributor**
+**Associate Data Engineer at Alphabridge Consulting, Lahore | Open-Source Contributor**
 
-I design and build reliable data pipelines — from ingestion to analytics-ready datasets. My day-to-day work is ETL/ELT in Python and SQL, large-scale processing on Apache Spark and Databricks, and dimensional modeling, with a focus on getting incremental ingestion right: CDC, Delta Lake MERGE, and clean dbt transformations.
+I build reliable data pipelines, from ingestion to analytics-ready datasets. Day to day, that means ETL/ELT in Python and SQL, large-scale processing on Apache Spark and Databricks, and dimensional modeling, with a focus on getting incremental ingestion right: CDC, Delta Lake MERGE, and clean dbt transformations. I also hunt the bugs that do not crash. They quietly return the wrong answer.
 
-### 💻 Technical Skills
+## What I'm working on now
 
-- **Languages:** Python, SQL, Rust
-- **Data Processing:** Apache Spark, Databricks, Delta Lake, dbt, Apache Airflow
+- Building the **Jira source connector for Galaxy's Filament** (assigned November 2026): YAML manifest and docs page first, following the Asana connector pattern
+- Contributing to **delta-rs** (Delta Lake, Rust) and maintaining my open pull requests across the data stack
+- Research: fault-injection benchmarking for data quality monitoring, and CDC strategies on Delta Lake under late-arriving updates
+
+## Open-source contributions: 21 merged pull requests
+
+| Project | Merged | Pull requests | What I contributed |
+|---|---|---|---|
+| [delta-io/delta-rs](https://github.com/delta-io/delta-rs) | 7 | [#4832](https://github.com/delta-io/delta-rs/pull/4832), [#4833](https://github.com/delta-io/delta-rs/pull/4833), [#4866](https://github.com/delta-io/delta-rs/pull/4866), [#4890](https://github.com/delta-io/delta-rs/pull/4890), [#4942](https://github.com/delta-io/delta-rs/pull/4942), [#4966](https://github.com/delta-io/delta-rs/pull/4966), [#5004](https://github.com/delta-io/delta-rs/pull/5004) | Correctness fixes: schema-merge nullability, pre-epoch timestamp statistics, TIMESTAMP UTC offset, validation error naming; docs on retention config, merge examples, and writer env vars |
+| [kedro-org/kedro](https://github.com/kedro-org/kedro) | 3 | [#5808](https://github.com/kedro-org/kedro/pull/5808), [#5809](https://github.com/kedro-org/kedro/pull/5809), [#5828](https://github.com/kedro-org/kedro/pull/5828) | CachedDataset docs example, templating concept page rewrite, OmegaConfigLoader resolver fix |
+| [apache/iceberg-python](https://github.com/apache/iceberg-python) | 3 | [#4135](https://github.com/apache/iceberg-python/pull/4135), [#4142](https://github.com/apache/iceberg-python/pull/4142), [#4144](https://github.com/apache/iceberg-python/pull/4144) | Timestamp parser and predicate evaluation fixes |
+| [apache/datafusion](https://github.com/apache/datafusion) | 1 | [#26489](https://github.com/apache/datafusion/pull/26489) | width_bucket bucket-computation dedup |
+| [bytewax/bytewax](https://github.com/bytewax/bytewax) | 1 | [#637](https://github.com/bytewax/bytewax/pull/637) | Build info: `__version__`, `__git_revision__`, `__git_dirty__` |
+| [open-metadata/docs-om](https://github.com/open-metadata/docs-om) | 2 | [#599](https://github.com/open-metadata/docs-om/pull/599), [#615](https://github.com/open-metadata/docs-om/pull/615) | OpenSearch FGAC permissions guide, dev container setup fix |
+| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 1 | [#125739](https://github.com/ClickHouse/ClickHouse/pull/125739) | Version note for Replicated engine `default_replica_path` settings |
+| [sqlfluff/sqlfluff](https://github.com/sqlfluff/sqlfluff) | 1 | [#8715](https://github.com/sqlfluff/sqlfluff/pull/8715) | Removed outdated Snowflake USING note from Rule ST07 |
+| [airbytehq/airbyte](https://github.com/airbytehq/airbyte) | 1 | [#88468](https://github.com/airbytehq/airbyte/pull/88468) | Fixed dead low-code CDK sample connector links |
+| [canonical/starbase](https://github.com/canonical/starbase) | 1 | [#638](https://github.com/canonical/starbase/pull/638) | `llms.txt` description from `index.rst` |
+
+Also in review: [Prefect #23819](https://github.com/PrefectHQ/prefect/pull/23819) (type-preserving `hash_objects` fix), [delta-rs #5012](https://github.com/delta-io/delta-rs/pull/5012) and [#5037](https://github.com/delta-io/delta-rs/pull/5037), [dbt #16690](https://github.com/dbt-labs/dbt/pull/16690), [Airflow #74424](https://github.com/apache/airflow/pull/74424), and pull requests in Trino, Chroma, Apache Iceberg, lakeFS, and Canonical projects.
+
+Previously validated the Databricks Zerobus sink for Galaxy's Filament, which shipped in Filament v0.24.0.
+
+## Research
+
+- **"Fail Loud, Fail Early"** — a fault-injection benchmark comparing rule-based data tests, statistical drift detectors, and a hybrid monitor. Submitted to ICACS'27.
+- **"The Cost of Being Late"** — a benchmark of change data capture strategies on Delta Lake under late-arriving updates. Submitted to ICECT 2027.
+
+## Technical skills
+
+- **Languages:** Python, SQL, Rust, Go
+- **Data processing:** Apache Spark, Databricks, Delta Lake, dbt, Apache Airflow
 - **Databases:** PostgreSQL, MS SQL Server, SSIS, SSAS
-- **Data Manipulation:** Pandas, NumPy
-- **Architecture:** Medallion Architecture, CDC, Delta MERGE, Dimensional Modeling
-- **Testing & Quality:** pytest, Rust tests, SQL validation
+- **Data manipulation:** Pandas, NumPy
+- **Architecture:** Medallion Architecture, CDC, Delta Lake MERGE, Dimensional Modeling
+- **Testing and quality:** pytest, Rust tests, SQL validation
 
-### 🚀 Current Work & Interests
+## Experience and education
 
-- 🔵 Contributing to **Apache, Delta Lake, dbt Labs, and other data-engineering open-source projects**
-- 🔵 Building reliable ETL/ELT pipelines and lakehouse architectures
-- 🔵 Working with **Delta Lake, Apache Spark, and Databricks** at scale
-- 🔵 Exploring query optimization, data quality monitoring, and incremental ingestion patterns
-
-### 🌱 Open-Source Contributions
-
-I contribute to bug fixes, documentation, tests, and performance improvements across data-engineering projects.
-
-| Organization | Project | Status | Pull Requests | Contributions |
-|---|---|---|---|---|
-| Delta Lake | delta-rs | 4 merged | [#4832](https://github.com/delta-io/delta-rs/pull/4832), [#4833](https://github.com/delta-io/delta-rs/pull/4833), [#4866](https://github.com/delta-io/delta-rs/pull/4866), [#4890](https://github.com/delta-io/delta-rs/pull/4890) | Schema merging nullable fix (Rust), deletedFileRetentionDuration docs, TIMESTAMP UTC offset fix, multiple conditional clauses merge examples |
-| Kedro | kedro | 2 merged, 1 open | [#5809](https://github.com/kedro-org/kedro/pull/5809), [#5808](https://github.com/kedro-org/kedro/pull/5808), [#5828](https://github.com/kedro-org/kedro/pull/5828) | CachedDataset docs example, templating concept page rewrite, OmegaConfigLoader replace=True resolver fix |
-| SQLFluff | sqlfluff | 1 merged | [#8715](https://github.com/sqlfluff/sqlfluff/pull/8715) | Removed outdated Snowflake USING note from Rule ST07 |
-| Airbyte | airbyte | 1 merged | [#88468](https://github.com/airbytehq/airbyte/pull/88468) | Fixed dead low-code CDK sample connector links |
-| ClickHouse | ClickHouse | 1 merged | [#125739](https://github.com/ClickHouse/ClickHouse/pull/125739) | Version note for Replicated engine default_replica_path settings |
-| Apache | Iceberg | 1 open | [#18468](https://github.com/apache/iceberg/pull/18468) | Spark branch write precedence docs |
-| Apache | DataFusion | 2 open | [#26198](https://github.com/apache/datafusion/pull/26198), [#26489](https://github.com/apache/datafusion/pull/26489) | Validate pruning-ratio config at SET time, width_bucket bucket-computation dedup refactor (approved) |
-| Apache | Airflow | 1 open | [#74424](https://github.com/apache/airflow/pull/74424) | Missing tests for cncf.kubernetes utilities |
-| dbt Labs | dbt | 1 open | [#16690](https://github.com/dbt-labs/dbt/pull/16690) | Log effective thread count at startup |
-| OpenMetadata | docs-om | 1 merged, 1 open | [#615](https://github.com/open-metadata/docs-om/pull/615), [#599](https://github.com/open-metadata/docs-om/pull/599) | Full Stack dev container setup fix, OpenSearch FGAC permissions guide |
-| Canonical | craft-cli | 2 open | [#504](https://github.com/canonical/craft-cli/pull/504), [#510](https://github.com/canonical/craft-cli/pull/510) | TypeError for non-string items in humanize_list, strip Sphinx markup from plain help overview |
-| Canonical | craft-providers | 1 open | [#1026](https://github.com/canonical/craft-providers/pull/1026) | Typed error for unsupported Ubuntu version in base checks |
-| Canonical | starbase | 1 merged | [#638](https://github.com/canonical/starbase/pull/638) | Reuse index.rst first sentence for llms.txt description |
-| Canonical | rockcraft | 1 open | [#1401](https://github.com/canonical/rockcraft/pull/1401) | Prefix base digest with sha256 in OCI annotation and rock metadata |
-| lakeFS | lakeFS | 1 open | [#10555](https://github.com/treeverse/lakeFS/pull/10555) | Squash merge option in branch merge dialog |
-| Bytewax | bytewax | 1 open | [#637](https://github.com/bytewax/bytewax/pull/637) | Expose bytewax.__version__, __git_revision__, __git_dirty__ build info |
-
-### 🛠️ Technologies Used
-
-- **Languages:** Python, SQL, Rust
-- **Data Processing:** Apache Spark, Databricks, Delta Lake, dbt, Apache Airflow
-- **Databases & Warehousing:** PostgreSQL, MS SQL Server, SSIS, SSAS
-- **Data Manipulation:** Pandas, NumPy
-- **Architecture:** Medallion Architecture, CDC, Delta MERGE, Dimensional Modeling
-- **Testing & Quality:** pytest, Rust tests, SQL validation
-
-### 📊 GitHub Activity
-
-- 11 merged PRs across Delta Lake, Kedro, SQLFluff, Airbyte, ClickHouse, Canonical, and OpenMetadata
-- 13 open PRs across Apache, dbt Labs, OpenMetadata, Canonical, lakeFS, and Bytewax
-- Contributing to docs, tests, bug fixes, and performance improvements
-
-### 💼 Experience & Education
-
-- **Data Engineer** — Alphabridge Consulting Ltd, Lahore (Aug 2026)
+- **Associate Data Engineer** — Alphabridge Consulting, Lahore (Aug 2026 – present)
 - **Teaching Assistant, DBMS & Data Warehousing / BI** — PUCIT, Lahore (Jan 2025 – Jan 2026)
 - **BS Data Science** — University of the Punjab, PUCIT (2022 – 2026)
 
-### 📫 Connect With Me
+## Connect with me
 
+- **Blog:** [Medium — @shahzeb.dataengineer](https://medium.com/@shahzeb.dataengineer) — writing what I learn from open source
 - **Email:** shahzebali1218@gmail.com
-- **GitHub:** [Shahzeb-DataEngineer](https://github.com/Shahzeb-DataEngineer)
 
 ---
 
-*Building reliable data pipelines, one PR at a time.* 🚀
+*Building reliable data pipelines, one PR at a time.*
