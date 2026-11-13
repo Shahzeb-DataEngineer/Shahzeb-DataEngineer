@@ -1,6 +1,6 @@
 # Hi, I'm Shahzeb Ali
 
-**Associate Data Engineer at Alphabridge Consulting, Lahore | Open-Source Contributor**
+**Data Engineer based in Lahore | Open-Source Contributor**
 
 I build reliable data pipelines, from ingestion to analytics-ready datasets. Day to day, that means ETL/ELT in Python and SQL, large-scale processing on Apache Spark and Databricks, and dimensional modeling, with a focus on getting incremental ingestion right: CDC, Delta Lake MERGE, and clean dbt transformations. I also hunt the bugs that do not crash. They quietly return the wrong answer.
 
@@ -45,7 +45,7 @@ Previously validated the Databricks Zerobus sink for Galaxy's Filament, which sh
 
 ## Experience and education
 
-- **Associate Data Engineer** — Alphabridge Consulting, Lahore (Aug 2026 – present)
+- **Data Engineer** — Alphabridge Consulting, Lahore (Aug – Sep 2026)
 - **Teaching Assistant, DBMS & Data Warehousing / BI** — PUCIT, Lahore (Jan 2025 – Jan 2026)
 - **BS Data Science** — University of the Punjab, PUCIT (2022 – 2026)
 
