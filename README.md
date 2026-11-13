@@ -29,11 +29,6 @@ Also in review: [Prefect #23819](https://github.com/PrefectHQ/prefect/pull/23819
 
 Previously validated the Databricks Zerobus sink for Galaxy's Filament, which shipped in Filament v0.24.0.
 
-## Research
-
-- **"Fail Loud, Fail Early"** — a fault-injection benchmark comparing rule-based data tests, statistical drift detectors, and a hybrid monitor. Submitted to ICACS'27.
-- **"The Cost of Being Late"** — a benchmark of change data capture strategies on Delta Lake under late-arriving updates. Submitted to ICECT 2027.
-
 ## Technical skills
 
 - **Languages:** Python, SQL, Rust, Go
