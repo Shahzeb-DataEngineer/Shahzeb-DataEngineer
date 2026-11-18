@@ -6,11 +6,11 @@ I build reliable data pipelines, from ingestion to analytics-ready datasets. Day
 
 ## What I'm working on now
 
-- Building the **Jira source connector for Galaxy's Filament** (assigned November 2026): YAML manifest and docs page first, following the Asana connector pattern
+- Built the **Jira source connector for Galaxy's Filament**, which shipped in Filament **v0.46.0** (November 2026); now building the **Trello source connector** (in review)
 - Contributing to **delta-rs** (Delta Lake, Rust) and maintaining my open pull requests across the data stack
 - Research: fault-injection benchmarking for data quality monitoring, and CDC strategies on Delta Lake under late-arriving updates
 
-## Open-source contributions: 21 merged pull requests
+## Open-source contributions: 22 merged pull requests
 
 | Project | Merged | Pull requests | What I contributed |
 |---|---|---|---|
@@ -19,13 +19,14 @@ I build reliable data pipelines, from ingestion to analytics-ready datasets. Day
 | [apache/iceberg-python](https://github.com/apache/iceberg-python) | 3 | [#4135](https://github.com/apache/iceberg-python/pull/4135), [#4142](https://github.com/apache/iceberg-python/pull/4142), [#4144](https://github.com/apache/iceberg-python/pull/4144) | Timestamp parser and predicate evaluation fixes |
 | [apache/datafusion](https://github.com/apache/datafusion) | 1 | [#26489](https://github.com/apache/datafusion/pull/26489) | width_bucket bucket-computation dedup |
 | [bytewax/bytewax](https://github.com/bytewax/bytewax) | 1 | [#637](https://github.com/bytewax/bytewax/pull/637) | Build info: `__version__`, `__git_revision__`, `__git_dirty__` |
+| [galaxy-io/filament](https://github.com/galaxy-io/filament) | 1 | [#682](https://github.com/galaxy-io/filament/pull/682) | Jira source connector: 9 resources, incremental reads on `updated`, shipped in v0.46.0 |
 | [open-metadata/docs-om](https://github.com/open-metadata/docs-om) | 2 | [#599](https://github.com/open-metadata/docs-om/pull/599), [#615](https://github.com/open-metadata/docs-om/pull/615) | OpenSearch FGAC permissions guide, dev container setup fix |
 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 1 | [#125739](https://github.com/ClickHouse/ClickHouse/pull/125739) | Version note for Replicated engine `default_replica_path` settings |
 | [sqlfluff/sqlfluff](https://github.com/sqlfluff/sqlfluff) | 1 | [#8715](https://github.com/sqlfluff/sqlfluff/pull/8715) | Removed outdated Snowflake USING note from Rule ST07 |
 | [airbytehq/airbyte](https://github.com/airbytehq/airbyte) | 1 | [#88468](https://github.com/airbytehq/airbyte/pull/88468) | Fixed dead low-code CDK sample connector links |
 | [canonical/starbase](https://github.com/canonical/starbase) | 1 | [#638](https://github.com/canonical/starbase/pull/638) | `llms.txt` description from `index.rst` |
 
-Also in review: [Prefect #23819](https://github.com/PrefectHQ/prefect/pull/23819) (type-preserving `hash_objects` fix), [delta-rs #5012](https://github.com/delta-io/delta-rs/pull/5012) and [#5037](https://github.com/delta-io/delta-rs/pull/5037), [dbt #16690](https://github.com/dbt-labs/dbt/pull/16690), [Airflow #74424](https://github.com/apache/airflow/pull/74424), and pull requests in Trino, Chroma, Apache Iceberg, lakeFS, and Canonical projects.
+Also in review: [Filament #705](https://github.com/galaxy-io/filament/pull/705) (Trello source) and [#716](https://github.com/galaxy-io/filament/pull/716) (last_record pagination), [iceberg-python #4383](https://github.com/apache/iceberg-python/pull/4383), [trino-python-client #654](https://github.com/trinodb/trino-python-client/pull/654), [delta-rs #5012](https://github.com/delta-io/delta-rs/pull/5012) and [#5037](https://github.com/delta-io/delta-rs/pull/5037), [dbt #16690](https://github.com/dbt-labs/dbt/pull/16690), [Airflow #74424](https://github.com/apache/airflow/pull/74424), and pull requests in Chroma, Apache Iceberg, lakeFS, and Canonical projects.
 
 Previously validated the Databricks Zerobus sink for Galaxy's Filament, which shipped in Filament v0.24.0.
 
@@ -40,8 +41,9 @@ Previously validated the Databricks Zerobus sink for Galaxy's Filament, which sh
 
 ## Experience and education
 
-- **Data Engineer** — Alphabridge Consulting, Lahore (Aug – Sep 2026)
+- **Associate Data Engineer** — Alphabridge Consulting, Lahore (Aug – Sep 2026)
 - **Teaching Assistant, DBMS & Data Warehousing / BI** — PUCIT, Lahore (Jan 2025 – Jan 2026)
+- **Freelance Data Engineer** — Self-employed, remote (2023 – Present)
 - **BS Data Science** — University of the Punjab, PUCIT (2022 – 2026)
 
 ## Connect with me
