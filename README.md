@@ -10,7 +10,7 @@ I build reliable data pipelines, from ingestion to analytics-ready datasets. Day
 - Contributing to **delta-rs** (Delta Lake, Rust) and maintaining my open pull requests across the data stack
 - Research: fault-injection benchmarking for data quality monitoring, and CDC strategies on Delta Lake under late-arriving updates
 
-## Open-source contributions: 23 merged pull requests
+## Open-source contributions: 24 merged pull requests
 
 | Project | Merged | Pull requests | What I contributed |
 |---|---|---|---|
@@ -24,9 +24,9 @@ I build reliable data pipelines, from ingestion to analytics-ready datasets. Day
 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 1 | [#125739](https://github.com/ClickHouse/ClickHouse/pull/125739) | Version note for Replicated engine `default_replica_path` settings |
 | [sqlfluff/sqlfluff](https://github.com/sqlfluff/sqlfluff) | 1 | [#8715](https://github.com/sqlfluff/sqlfluff/pull/8715) | Removed outdated Snowflake USING note from Rule ST07 |
 | [airbytehq/airbyte](https://github.com/airbytehq/airbyte) | 1 | [#88468](https://github.com/airbytehq/airbyte/pull/88468) | Fixed dead low-code CDK sample connector links |
-| [canonical/starbase](https://github.com/canonical/starbase) | 1 | [#638](https://github.com/canonical/starbase/pull/638) | `llms.txt` description from `index.rst` |
+| [canonical/starbase](https://github.com/canonical/starbase) | 2 | [#638](https://github.com/canonical/starbase/pull/638), [#649](https://github.com/canonical/starbase/pull/649) | `llms.txt` description from `index.rst`; removed stale ruff overrides entries |
 
-Also in review: [Filament #705](https://github.com/galaxy-io/filament/pull/705) (Trello source) and [#716](https://github.com/galaxy-io/filament/pull/716) (last_record pagination), [vLLM #68358](https://github.com/vllm-project/vllm/pull/68358) (detokenizer flush fix), [craft-cli #527](https://github.com/canonical/craft-cli/pull/527) (progress bar total-0 fix), [trino-python-client #654](https://github.com/trinodb/trino-python-client/pull/654), [delta-rs #5012](https://github.com/delta-io/delta-rs/pull/5012) and [#5037](https://github.com/delta-io/delta-rs/pull/5037), [dbt #16690](https://github.com/dbt-labs/dbt/pull/16690), [Airflow #74424](https://github.com/apache/airflow/pull/74424), and pull requests in Chroma, Apache Iceberg, lakeFS, and Canonical projects.
+Also in review: [Filament #757](https://github.com/galaxy-io/filament/pull/757) (Trello source) and [#716](https://github.com/galaxy-io/filament/pull/716) (last_record pagination), [vLLM #68358](https://github.com/vllm-project/vllm/pull/68358) (detokenizer flush fix), [craft-cli #527](https://github.com/canonical/craft-cli/pull/527) (progress bar total-0 fix), [trino-python-client #654](https://github.com/trinodb/trino-python-client/pull/654), [delta-rs #5012](https://github.com/delta-io/delta-rs/pull/5012), [#5037](https://github.com/delta-io/delta-rs/pull/5037) and [#5098](https://github.com/delta-io/delta-rs/pull/5098) (MERGE with CDF fix), [dbt #16690](https://github.com/dbt-labs/dbt/pull/16690), [Airflow #74424](https://github.com/apache/airflow/pull/74424), and pull requests in Chroma, Apache Iceberg, lakeFS, and Canonical projects.
 
 Previously validated the Databricks Zerobus sink for Galaxy's Filament, which shipped in Filament v0.24.0.
 
