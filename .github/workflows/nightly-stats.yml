@@ -1,0 +1,25 @@
+name: Nightly profile stats refresh
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Shahzeb-DataEngineer/profile-stats-action@v1
+        with:
+          username: Shahzeb-DataEngineer
+          file: README.md
+      - name: Commit changes
+        run: |
+          git config user.name "Shahzeb Ali"
+          git config user.email "Bsdsf22m054@pucit.edu.pk"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Refresh merged-PR count (nightly)" && git push

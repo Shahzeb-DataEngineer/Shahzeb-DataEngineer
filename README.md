@@ -10,7 +10,7 @@ I build reliable data pipelines, from ingestion to analytics-ready datasets. Day
 - Contributing to **delta-rs** (Delta Lake, Rust) and maintaining my open pull requests across the data stack
 - Research: fault-injection benchmarking for data quality monitoring, and CDC strategies on Delta Lake under late-arriving updates
 
-## Open-source contributions: 24 merged pull requests
+## Open-source contributions: <!-- merged-prs -->24<!-- /merged-prs --> merged pull requests
 
 | Project | Merged | Pull requests | What I contributed |
 |---|---|---|---|
