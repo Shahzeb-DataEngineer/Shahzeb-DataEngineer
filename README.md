@@ -1,6 +1,66 @@
-# Hi, I'm Shahzeb Ali
+<div align="center">
 
-**Data Engineer based in Lahore | Open-Source Contributor**
+<sub>VOL. 2026 · No. 314 · Pakistan · github.com/shahzeb-dataengineer</sub>
+
+# The Shahzeb Ali Times
+
+<sub><b>DATA ENGINEER</b> · ALL THE CODE THAT'S FIT TO SHIP</sub>
+
+</div>
+
+---
+
+**10** public repositories, **0** stars, **314** contributions in the last year, a longest streak of **24** days and **13** followers.
+
+<table>
+<tr>
+<td width="44%" valign="top">
+
+### Top stories
+
+<b><a href="https://github.com/galaxy-io/filament/pull/682">Jira source connector for Filament</a></b><br/><sub>Built the Jira source connector, 9 resources with incremental reads, shipped in Filament v0.46.0</sub><br/><br/>
+<a href="https://github.com/delta-io/delta-rs">delta-rs</a> · 7 merged PRs<br/><sub>Correctness fixes in Delta Lake: schema-merge nullability, timestamp statistics, merge validation</sub><br/><br/>
+<a href="https://github.com/galaxy-io/filament/pull/757">Trello source connector</a><br/><sub>13 resources, newest-first actions handling, in review</sub><br/><br/>
+<a href="https://github.com/Shahzeb-DataEngineer/profile-stats-action">profile-stats-action</a><br/><sub>A GitHub Action that refreshes merged-PR counts nightly, earned the Developer Program badge</sub>
+
+</td>
+<td width="28%" valign="top">
+
+### By the numbers
+
+Repositories: <b>10</b><br/>
+Stars: <b>0</b><br/>
+Contributions: <b>314</b><br/>
+Longest streak: <b>24 days</b><br/>
+Followers: <b>13</b><br/>
+Merged PRs: <b>24</b>
+
+</td>
+<td width="28%" valign="top">
+
+### Languages
+
+Python · 56%<br/>
+JavaScript · 35%<br/>
+HTML · 6%<br/>
+PowerShell · 1%<br/>
+Jupyter Notebook · 1%
+
+</td>
+</tr>
+</table>
+
+### Editorial
+
+> Data Engineer | Delta Lake, CDC & data quality | Open-source contributor
+
+### Activity forecast
+
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/heatmap?username=shahzeb-dataengineer&theme=github-dark" alt="shahzeb-dataengineer contribution activity" />
+</p>
+
+---
 
 I build reliable data pipelines, from ingestion to analytics-ready datasets. Day to day, that means ETL/ELT in Python and SQL, large-scale processing on Apache Spark and Databricks, and dimensional modeling, with a focus on getting incremental ingestion right: CDC, Delta Lake MERGE, and clean dbt transformations. I also hunt the bugs that do not crash. They quietly return the wrong answer.
 
@@ -54,3 +114,5 @@ Previously validated the Databricks Zerobus sink for Galaxy's Filament, which sh
 ---
 
 *Building reliable data pipelines, one PR at a time.*
+
+<div align="center"><sub>CLASSIFIEDS · <a href="https://github.com/shahzeb-dataengineer">GitHub</a> · <a href="https://shahzeb-dataengineer.github.io/Portfolio/">Website</a> · <a href="https://medium.com/@shahzeb.dataengineer">Blog</a> · Printed with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></div>
